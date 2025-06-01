@@ -84,6 +84,11 @@
             bindings = <&caps_word>;
             key-positions = <11 12 13>;
         };
+
+        umlaut_ae {
+            bindings = <&umlaut_ae>;
+            key-positions = <10 2>;
+        };
     };
 
     macros {
@@ -157,6 +162,13 @@
             #binding-cells = <0>;
             bindings = <&kp FSLH &kp STAR>;
             label = "MACROS_COMMENT";
+        };
+
+        umlaut_ae: umlaut_ae {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_ALT &kp KP_NUMBER_1 &sk LEFT_ALT &kp KP_NUMBER_2 &sk KP_NUMBER_9>;
+            label = "UMLAUT_AE";
         };
     };
 
