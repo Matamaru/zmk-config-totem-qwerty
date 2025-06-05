@@ -222,7 +222,7 @@
             bindings = <
          &kp Q         &kp W        &kp F         &kp P            &kp B         &kp J      &kp L             &kp U               &kp Y             &kp SEMICOLON
          &hml LCTRL A  &hml LALT R  &hml LSHFT S  &hml LEFT_GUI T  &kp G         &kp M      &hmr RIGHT_GUI N  &hmr RIGHT_SHIFT E  &hmr RIGHT_ALT I  &hmr RCTRL O
-&kp TAB  &kp LG(Z)     &kp X        &kp C         &kp D            &kp V         &kp K      &kp H             &kp COMMA           &kp DOT           &comment_or 0 SLASH  &kp SQT
+&kp TAB  &kp Z         &kp X        &kp C         &kp D            &kp V         &kp K      &kp H             &kp COMMA           &kp DOT           &comment_or 0 SLASH  &kp SQT
                                     &mo DIG       &lt NAV ESC      &kp RETURN    &kp SPACE  &lt SYS ESC       &mo DIG
             >;
         };
